@@ -7,7 +7,7 @@ Criar uma Web API para um catálogo de produtos/categorias que pode atender uma 
 - Expor endpoints para criar, ler, editar e excluir produtos e também para consultar produtos e um produto específico
 - Expor endpoints para criar ler, editar e excluir categorias e também consultar categorias, uma categoria específica 
   e os produtos de uma categoria.
-- Para categorias, precisamos armazenar:o nome e o caminho da imagem
+- Para categorias, precisamos armazenar: o nome e o caminho da imagem
 - Para produtos, precisamos armazenar : nome, descrição, valor unitário, caminho da imagem, estoque, data do cadastro e categoria
 
 ## Etapas
@@ -16,7 +16,7 @@ Criar uma Web API para um catálogo de produtos/categorias que pode atender uma 
 3. Criar o modelo de entidades - Produto e Categoria
 4. Configurar o projeto para usar o EF Core e incluir referências ao EF Core
 5. Definir o banco de dados Usado — MySql e MySQL Workbench
-6. Definir a classe de contexto do EF Core —AppDbContext
+6. Definir a classe de contexto do EF Core — AppDbContext
 7. Definir o mapeamento de entidades para as tabelas — DbSet<T>
 8. Registrar o contexto como um serviço — Program
 9. Definir a string de conexão no arquivo appsettings.json
@@ -39,7 +39,7 @@ Endpoint da API : /v1/api/produtos
 - GET /V1/ api/produtos/1
 - POST /v1/ api/produtos
 - PUT /v1/api/produtos/1
-- DELETE /v1/prodktos/1
+- DELETE /v1/produtos/1
  
 Endpoint da API : /v1/api/categorias
 - GET /v1/api/categorias
@@ -55,7 +55,7 @@ Endpoint da API : /v1/api/usuarios
 - PUT /v1/api/usuarios/1
 - DELETE /v1/usuarios/1
 
-## Persistencia dos dados
+## Persistência dos dados
 - Banco de dados relacional: Mysql
 - Pomelo.EntityFrameworkCore.MySql
 - Entity Framework Core
