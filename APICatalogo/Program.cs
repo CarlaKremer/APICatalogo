@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(optionsAction =>
                 optionsAction.UseMySql(mySqlConnection,
                 ServerVersion.AutoDetect(mySqlConnection)));
 
+
 // constroi instância da aplicação com base nos serviços definidos anteriomente:
 var app = builder.Build();
 

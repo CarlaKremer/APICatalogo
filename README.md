@@ -34,26 +34,26 @@ Criar uma Web API para um catálogo de produtos/categorias que pode atender uma 
 - Para os usuários precisamos armazenar : nome, email/ senha
 
 ## Definição dos recursos, dos endpoints e do mapeamento
-Endpoint da API : /v1/api/produtos
-- GET /v1/api/produtos
-- GET /V1/ api/produtos/1
-- POST /v1/ api/produtos
-- PUT /v1/api/produtos/1
-- DELETE /v1/produtos/1
+Endpoint da API : /produtos
+- GET /produtos
+- GET /produtos/1
+- POST /produtos
+- PUT /produtos/1
+- DELETE /produtos/1
  
-Endpoint da API : /v1/api/categorias
-- GET /v1/api/categorias
-- GET /v1/ api/categorias/1
-- POST /v1/ api/categorias
-- PUT /v1/api/categorias/1
-- DELETE /v1/categorias/1
+Endpoint da API : /categorias
+- GET /categorias
+- GET /categorias/1
+- POST /categorias
+- PUT /categorias/1
+- DELETE /categorias/1
 
-Endpoint da API : /v1/api/usuarios
-- GET /v1/api/usuarios
-- GET /v1/ api/usuarios/1
-- POST /v1/ api/usuarios
-- PUT /v1/api/usuarios/1
-- DELETE /v1/usuarios/1
+Endpoint da API : /usuarios
+- GET /usuarios
+- GET /usuarios/1
+- POST /usuarios
+- PUT /usuarios/1
+- DELETE /usuarios/1
 
 ## Persistência dos dados
 - Banco de dados relacional: Mysql
