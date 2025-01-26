@@ -1,4 +1,4 @@
-Projeto do curso WEB API .NET Core Essencial de José Carlos Macarotti
+Projeto do curso WEB API .NET Core Essencial de Jose Carlos Macoratti
 
 # Escopo do projeto de API
 Criar uma Web API para um catálogo de produtos/categorias que pode atender uma rede de lojas ou supermercados.
