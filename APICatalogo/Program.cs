@@ -1,5 +1,6 @@
 using APICatalogo.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,12 @@ string? mySqlConnection = builder.Configuration.GetConnectionString("DefaultConn
 builder.Services.AddDbContext<AppDbContext>(optionsAction =>
                 optionsAction.UseMySql(mySqlConnection,
                 ServerVersion.AutoDetect(mySqlConnection)));
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+});
+
 
 
 // constroi instância da aplicação com base nos serviços definidos anteriomente:
